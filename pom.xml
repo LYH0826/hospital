@@ -7,6 +7,10 @@
         <module>common</module>
         <module>model</module>
         <module>service</module>
+        <module>hospital-manager</module>
+        <module>service-client</module>
+        <module>service-gateway</module>
+        <module>common/rabbit-util</module>
     </modules>
 
 
@@ -31,7 +35,7 @@
         <mysql.version>5.1.46</mysql.version>
         <swagger.version>2.7.0</swagger.version>
         <jwt.version>0.7.0</jwt.version>
-        <fastjson.version>1.2.29</fastjson.version>
+        <fastjson.version>1.2.75</fastjson.version>
         <httpclient.version>4.5.1</httpclient.version>
         <easyexcel.version>2.2.0-beta2</easyexcel.version>
         <aliyun.version>4.1.1</aliyun.version>

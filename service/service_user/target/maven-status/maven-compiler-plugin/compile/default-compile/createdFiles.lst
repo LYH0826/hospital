@@ -1,0 +1,16 @@
+yygh/utils/HttpClientUtils$2.class
+yygh/controller/api/PatientApiController.class
+yygh/controller/UserController.class
+yygh/utils/HttpClientUtils.class
+yygh/controller/api/WeixinApiController.class
+yygh/controller/api/UserInfoApiController.class
+yygh/service/UserInfoService.class
+yygh/mapper/PatientMapper.class
+yygh/utils/HttpClientUtils$1.class
+yygh/mapper/UserInfoMapper.class
+yygh/service/impl/UserInfoServiceImpl.class
+yygh/service/PatientService.class
+yygh/config/UserConfig.class
+yygh/ServiceUserApplication.class
+yygh/utils/ConstantWxPropertiesUtil.class
+yygh/service/impl/PatientServiceImpl.class

@@ -10,6 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>service_hosp</module>
+        <module>service_cmn</module>
+        <module>service_user</module>
+        <module>service_sms</module>
+        <module>service_oss</module>
+        <module>service_order</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -17,16 +26,21 @@
     </properties>
 
     <dependencies>
-        <!--<dependency>-->
-        <!--    <groupId>org.example</groupId>-->
-        <!--    <artifactId>service-util</artifactId>-->
-        <!--    <version>1.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--    <groupId>org.example</groupId>-->
-        <!--    <artifactId>model</artifactId>-->
-        <!--    <version>1.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>service-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>common-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -58,11 +72,11 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-        <!-- 流量控制 -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-        </dependency>
+        <!--&lt;!&ndash; 流量控制 &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--    <groupId>com.alibaba.cloud</groupId>-->
+        <!--    <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
     <build>
         <plugins>

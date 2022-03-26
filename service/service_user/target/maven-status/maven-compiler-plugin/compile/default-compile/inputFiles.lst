@@ -1,0 +1,14 @@
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/config/UserConfig.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/service/UserInfoService.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/service/impl/UserInfoServiceImpl.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/mapper/UserInfoMapper.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/utils/ConstantWxPropertiesUtil.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/service/impl/PatientServiceImpl.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/ServiceUserApplication.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/controller/UserController.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/controller/api/WeixinApiController.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/controller/api/UserInfoApiController.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/utils/HttpClientUtils.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/service/PatientService.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/mapper/PatientMapper.java
+/Users/linyiheng/IdeaProjects/hospital/service/service_user/src/main/java/yygh/controller/api/PatientApiController.java
